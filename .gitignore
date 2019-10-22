@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+/.vs
+/Debug
+/x64
+/3DMath/x64
+/3DMath/Debug
+/3DMath/3DMath.vcxproj.user
