@@ -3,6 +3,7 @@
 
 #include <iostream>;
 #include "Vector3.h";
+#include "EulerAngles.h"
 
 int main()
 {
@@ -10,10 +11,13 @@ int main()
 	Vector3 vec1 = Vector3(0,0,0);
 	Vector3 vec2 = Vector3(5, 4,3);
 	printf("%f", vectorMag( vec2));
+	vec1.zero();
+	EulerAngles a;
+	a.canonize();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
+// 调试程序: F5 或调试 >“开始调试”菜单  
 
 // 入门使用技巧: 
 //   1. 使用解决方案资源管理器窗口添加/管理文件

@@ -1,5 +1,10 @@
 #pragma once
 #include <math.h>
+
+// 名称：3D向量
+// 创建者：cary
+// 描述：对3D向量基本运算的封装
+
 class Vector3
 {
 public:

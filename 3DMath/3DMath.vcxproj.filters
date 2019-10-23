@@ -18,12 +18,39 @@
     <ClCompile Include="3DMath.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Vector3.cpp">
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerAngles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationMatrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerAngles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationMatrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
