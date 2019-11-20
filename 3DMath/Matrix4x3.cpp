@@ -269,7 +269,7 @@ void Matrix4x3::setupProject(const Vector3& n) {
 }
 
 //ππ‘Ï∑¥…‰æÿ’Û
-void Matrix4x3::setupReflect(AxisTypeEnum axis, float k = 0.0f) {
+void Matrix4x3::setupReflect(AxisTypeEnum axis, float k) {
 	switch (axis)
 	{
 	case AxisTypeEnum::x:

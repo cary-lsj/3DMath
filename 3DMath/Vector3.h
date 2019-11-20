@@ -123,9 +123,9 @@ inline Vector3 operator *(float k,const Vector3 &v) {
 
 //计算两点间的距离
 inline float distance(const Vector3& a, const Vector3& b) {
-	float dx = a.x - b.x;
-	float dy = a.y - b.y;
-	float dz = a.z - b.z;
+	double dx = double(a.x )- double( b.x);
+	double dy = double(a.y) - double(b.y);
+	double dz = double(a.z) - double(b.z);
 	return sqrt(dx * dx + dy * dy + dz * dz);
 
 }

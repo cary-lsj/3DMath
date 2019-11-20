@@ -8,6 +8,9 @@
 #ifndef __UELERANGLES_H_INCLUDED
 #define __UELERANGLES_H_INCLUDED
 
+class Matrix4x3;
+class RotationMatrix;
+class Quaternion;
 
 class EulerAngles {
 public:

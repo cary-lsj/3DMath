@@ -1,6 +1,4 @@
 #pragma once
-#include "Vector3.h"
-#include "EulerAngles.h"
 #ifndef __QUATERNION_H_INCLUDEED__
 #define __QUATERNION_H_INCLUDEED__
 
@@ -9,6 +7,9 @@
 // 创建者：cary
 // 描述：实现在3D中表示角位移的四元数
 //		
+
+class Vector3;
+class EulerAngles;
 
 class Quaternion
 {
