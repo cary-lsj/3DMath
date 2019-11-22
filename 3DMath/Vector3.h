@@ -104,7 +104,10 @@ public:
 
 //求向量的膜
 inline float vectorMag(const Vector3& a) {
-	return sqrt(a.x * a.x + a.y * a.y + a.z * a.z);
+	double x = double(a.x);
+	double y = double(a.y);
+	double z = double(a.z);
+	return sqrt(x * x + y * y + z * z);
 }
 
 //计算两向量的叉乘
@@ -123,10 +126,19 @@ inline Vector3 operator *(float k,const Vector3 &v) {
 
 //计算两点间的距离
 inline float distance(const Vector3& a, const Vector3& b) {
-	double dx = double(a.x )- double( b.x);
+	
+	//两点间的距离的平方
+	float squared = distanceSquared(a,b);
+	return sqrt(squared);
+
+}
+
+//计算两点间的距离的平方
+inline float distanceSquared(const Vector3& a, const Vector3& b) {
+	double dx = double(a.x) - double(b.x);
 	double dy = double(a.y) - double(b.y);
 	double dz = double(a.z) - double(b.z);
-	return sqrt(dx * dx + dy * dy + dz * dz);
+	return dx * dx + dy * dy + dz * dz;
 
 }
 
